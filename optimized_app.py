@@ -316,7 +316,7 @@ def build_streamlit_ui(df_product_info, df_product, df_review, background_image_
 
     # Sidebar elements
     preference = st.sidebar.slider('Choose number of recommendations', 0, 10, 5)
-    page_options = ['FavFinder', 'TraitPicker', 'SquadSuggester', 'BlendBuddy']
+    page_options = ['FavFinder', 'TraitPicker', 'SquadSuggester']
     choice = st.sidebar.selectbox('Select Page', page_options)
 
     # Page selection and rendering
